@@ -5,5 +5,4 @@ export const getCountry = async (): Promise<CountryType[]> => {
     if (!response.ok) throw new Error("Errore nella richiesta all'API");
     const data = await response.json();
     return data;
-
 }

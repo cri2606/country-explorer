@@ -17,7 +17,7 @@ export const CountryCard = ({ country }: CountryCardProps) => {
                 <Text><b>Population:</b> {country.population}</Text>
             </Card.Body>
             <Card.Footer>
-                <CardButton />
+                <CardButton country={country} />
             </Card.Footer>
         </Card.Root>
     )
